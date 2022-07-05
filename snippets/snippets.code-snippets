@@ -41,5 +41,25 @@
       "}"
     ],
     "description": "bpm二开初始化"
+  },
+  "getFieldValue": {
+    "prefix": "getfieldvalue",
+    "body": ["getFieldValue('$1')"],
+    "description": "获取表单字段值"
+  },
+  "getFieldsValue": {
+    "prefix": "getfieldsvalue",
+    "body": ["getFieldsValue('$1')"],
+    "description": "获取表单字段值(bpm2.0版本pc端有兼容性问题，建议使用getConfigValue)"
+  },
+  "getFieldsFormatValue": {
+    "prefix": "getfieldsformatValue",
+    "body": ["getFieldsFormatValue()"],
+    "description": "获取表单格式化后的值，等同于提交时的值"
+  },
+  "getConfigValue": {
+    "prefix": "getconfigvalue",
+    "body": ["getConfigValue()"],
+    "description": "获取表单格式化后的value与label，pc/h5 返回结构相同，主要解决getFieldsValue返回的数据结构不同的情况"
   }
 }
