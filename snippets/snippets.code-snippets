@@ -76,5 +76,10 @@
     "prefix": "setFieldsConfig",
     "body": ["setFieldsConfig()"],
     "description": "设置字段的配置信息"
+  },
+  "getTable": {
+    "prefix": "getTable",
+    "body": ["getTable('$1')"],
+    "description": "获取一个表的配置"
   }
 }
