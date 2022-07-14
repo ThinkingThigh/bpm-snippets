@@ -81,5 +81,40 @@
     "prefix": "getTable",
     "body": ["getTable('$1')"],
     "description": "获取一个表的配置"
+  },
+  "setTable": {
+    "prefix": "setTable",
+    "body": ["setTable('$1')"],
+    "description": "设置一个表的配置，如隐藏明细表的某列"
+  },
+  "createTableRow": {
+    "prefix": "createTableRow",
+    "body": ["createTableRow('$1')"],
+    "description": "设置一个表的配置，如隐藏明细表的某列"
+  },
+  "removeTableRow": {
+    "prefix": "removeTableRow",
+    "body": ["removeTableRow('$1')"],
+    "description": "删除一个明细表的行"
+  },
+  "addButton": {
+    "prefix": "addButton",
+    "body": ["addButton('$1')"],
+    "description": "操作区增加自定义按钮"
+  },
+  "setButton": {
+    "prefix": "setButton",
+    "body": ["setButton('$1')"],
+    "description": "设置按钮配置"
+  },
+  "getButton": {
+    "prefix": "getButton",
+    "body": ["getButton('$1')"],
+    "description": "返回当前的按钮列表"
+  },
+  "getButtonKeys": {
+    "prefix": "getButtonKeys",
+    "body": ["getButtonKeys('$1')"],
+    "description": "返回所有按钮的key值"
   }
 }
